@@ -1,0 +1,17 @@
+{
+  "name": "express-param-check",
+  "version": "1.0.0",
+  "description": "Parameter Checking Middleware for ExpressJS",
+  "main": "index.js",
+  "repository": "https://github.com/sdmichelini/express-param-check",
+  "author": "sdmichelini",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -R Spec -b test/index.test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "node-mocks-http": "^1.6.1"
+  }
+}
